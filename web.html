@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linker | Abenezer Girma</title>
+
+    <style>
+        body {
+            color: #e0e0e0;
+            background-color: #121212;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f1f1f, #333);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff4b2b;
+        }
+
+        /* FLEXBOX CONTAINER */
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Allows cards to wrap to the next line on mobile */
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #1f1f1f, #333);
+            border-left: 7px solid blue;
+            border-right: 7px solid blue;
+            padding: 30px;
+            text-align: center;
+            flex: 1;
+            min-width: 300px; /* Prevents cards from getting too skinny */
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        
+        .card {
+			transition: transform 0.3s, box-shadow 0.3s;
+		}
+		.card:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 10px 20px rgba(0, 212, 255, 0.3);
+		}
+
+        /* Styled as a button but it's a link */
+        .link {
+            display: inline-block;
+            background-color: black;
+            color: whitesmoke;
+            text-decoration: none;
+            border: 2px solid darkblue;
+            border-radius: 8px;
+            padding: 10px 25px;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        .link:hover {
+            background-color: skyblue;
+            color: black;
+            border-color: black;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Websites by Abenezer Girma</h1>
+        <p><b>3 years of experience in Web Development</b></p>
+        <h3>Visit daily and support my work!</h3> 
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="smart_tools.png" alt="Tools Hub">
+            <h2>Smart-Tools-Hub</h2>
+            <p>A useful web app featuring a calculator, unit converters, and color testing tools.</p>
+            <a class="link" href="https://aelmb61-collab.github.io">Visit Site ></a>
+        </div>  
+
+        <div class="card">
+            <img src="look-hacker.png" alt="Hacker Web">
+            <h2>Look-Hacker</h2>
+            <p>Do you want to look like a Hacker check out this web<br>
+               It has: Matrix rain, fake password crack, Hacker typer and .etc...</p>
+            <a class="link" href="https://look-hacker.github.io">Visit Site ></a>
+        </div>
+
+        <div class="card">  
+            <img src="messi-news.png" alt="Messi-News Web">
+            <h2>Messi-News</h2>
+            <p>Messi News is a web that shows every news from Leonel_Messi.</p>
+            <a class="link" href="https://messi-news.github.io">Visit Site ></a>
+        </div>
+
+        <div class="card" style="border-color: #ff4b2b;">
+			<h2>Your Brand Here</h2>
+			<p>Reach thousands of users across my 4 web platforms.</p>
+			<a class="link" href="mailto:aelmb61@gmail.com" style="border-color: #ff4b2b;">Sponsor Me</a>
+		</div>
+    </div>      
+</body>
+</html>
