@@ -6,27 +6,47 @@
     <title>About | Abenezer Girma</title>
     <link rel="stylesheet" href="style.css">
     <style>
+		body {
+			margin: 0;
+			background-color: #DDDDDD;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+		
         header {
-            background-color: #D1D1D1
-            header-bottom-style: solid #909090
+            background-color: #D1D1D1;
+            border-bottom: 3px solid #909090;
+			padding-top: 15px;
+			display: flex;
+			justify-content: center; /* Horizontally centers the child */
+			align-items: center;    /* Vertically centers the child */
+			height: 25vh;           /* Required for vertical centering */
         }
+		
+		.back_btn {
+			color: #00d4ff;
+			background-color: #7DFFFA;
+			padding: 7px;
+			border-radius: 8px;
+			color: blue;
+			text-decoration: none;
+		}
     </style>
 </head>
 <body>
     <header>
-        <h1>My Coding Journey</h1>
+        <h1 style="margin-right: 10px;">My Coding Journey</h1>
         <p>From 1GB RAM to Building the Future</p>
     </header>
     <main style="max-width: 800px; margin: auto; padding: 20px; line-height: 1.8;">
         <section>
             <h2>Who am I?</h2>
-            <p>I am <strong>Abenezer Girma</strong>, a 13-year-old developer from Nekemte, Ethiopia. I have been coding for 3 years, specializing in HTML, CSS, Python, C#, C++, Go and Rust.</p>
+            <p>I am <strong>Abenezer Girma</strong>, a 13-year-old developer from Nekemte, Ethiopia. I have been coding for 3 years, specializing in <e style="background-color: #8ECBC8; color: #FF3834; padding: 3px 7px 3px 7px; border-radius: 10px;">HTML, CSS, Python, C#, C++, Go and Rust</e>.</p>
         </section>
         <section style="background: whitesmoke; padding: 20px; border-radius: 10px; border-left: 5px solid #ff4b2b;">
             <h2>The Challenge</h2>
             <p>I currently build all my projects on a <strong>Dell Optiplex GX520 with 1GB of RAM</strong> running antiX Linux. While hardware is a limit, my ambition is not. I am currently looking for a <strong>JOB</strong> to get money and upgrade to a modern machine for AI and Advanced Backend development.</p>
         </section>
-        <p><a href="index.html" style="color: #00d4ff;">← Back to My Projects</a></p>
+        <p><a href="index.html" class="back_btn">← Back to My Projects</a></p>
     </main>
 </body>
 </html>
