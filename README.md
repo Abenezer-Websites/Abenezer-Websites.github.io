@@ -1,18 +1,30 @@
-# 🚀 Abenezer Girma | Web Developer & Pentester
+# ⚡ Abenezer Girma
 
-Welcome to my official Linker repository! I am a 13-year-old developer from Ethiopia building a web network on limited hardware.
+> **Web Developer & Tech Enthusiast from Ethiopia 🇪🇹**  
+> *Building fast, lightweight web applications and tools on antiX Linux.*
 
-## 🌐 My Network
-- **[Messi-News](https://messi-news.github.io)** - AdSense Authorized sports news.
-- **[Smart-Tools-Hub](https://aelmb61-collab.github.io)** - Utility tools for daily use.
-- **[Look-Hacker](https://look-hacker.github.io)** - Fun cybersecurity-themed simulations.
+---
 
-## 🛠 Tech Stack
-- **OS:** antiX Linux (Lightweight for 1GB RAM)
-- **Languages:** HTML5, CSS3, JavaScript, Python
-- **Tools:** BeEF, Geany, Terminal
+## 🌐 My Web Network
 
-## 🎯 The Goal
-I am currently working towards a **60,000 ETB** hardware upgrade to support my journey into AI and professional software engineering.
+| Project | Description | Link |
+| :--- | :--- | :--- |
+| ⚽ **Messi-News** | AdSense authorized sports news & updates platform | [Visit Site](https://messi-news.github.io) |
+| 🧰 **Smart-Tools-Hub** | Everyday web utilities, calculators, and converters | [Visit Site](https://aelmb61-collab.github.io) |
+| 💻 **Look-Hacker** | Interactive cybersecurity & Matrix-style simulations | [Visit Site](https://look-hacker.github.io) |
+| 🇵🇹 **CR7-News** | Trending news and media updates for Cristiano Ronaldo | [Visit Site](https://cr7-news.github.io) |
+| 💬 **Abe's Dark Chat** | Minimal, private real-time chat web app | [Visit Site](https://abe-dark-chat.github.io) |
+| 📦 **Abe AppStore** | Custom lightweight applications platform | [Visit Site](https://abe-apps.github.io) |
 
-**[Sponsor my journey](mailto:aelmb61@gmail.com)**
+---
+
+## 🛠 Tech Stack & Setup
+
+```text
+OS        : antiX Linux (Lightweight & Fast)
+Languages : HTML5 • CSS3 • JavaScript • Python • C++
+Tools     : Geany • Linux Terminal • Git
+
+🎯 Current Hardware Milestone
+
+I am saving towards a 60,000 ETB hardware upgrade to power my software engineering, AI exploration, and application development projects.
