@@ -7,8 +7,8 @@
 
 ## 🎯 Current Hardware Milestone
 
-* I am saving towards a 60,000 ETB hardware upgrade to power my software engineering. *
-* AI exploration, and application development projects. *
+| I am saving towards a 60,000 ETB hardware upgrade to power my software engineering.
+| AI exploration, and application development projects.
 
 ---
 
