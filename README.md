@@ -18,13 +18,15 @@
 
 ---
 
-## 🛠 Tech Stack & Setup
+## 🛠 Tech Stack & 💻 Setup
 
 ```text
 OS        : antiX Linux (Lightweight & Fast)
-Languages : HTML5 • CSS3 • JavaScript • Python • C++
-Tools     : Geany • Linux Terminal • Git
+Languages : HTML5 • CSS3 • JavaScript • Python • C++ • C • Go
+Tools     : Geany • Micro • Git • Nano
+Hardware  : Dell Optiplex GX 520 • Pentium D • 1GB RAM
 
-🎯 Current Hardware Milestone
+## 🎯 Current Hardware Milestone
 
-I am saving towards a 60,000 ETB hardware upgrade to power my software engineering, AI exploration, and application development projects.
+* I am saving towards a 60,000 ETB hardware upgrade to power my software engineering. *
+* AI exploration, and application development projects. *
